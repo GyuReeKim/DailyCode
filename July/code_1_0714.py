@@ -75,9 +75,9 @@ random_choice = random.choice(character)
 
 # 둘 중 한가지 추천
 if rec_first == "멘탈":
-    print("당신은 감시자를 하기에는 무리입니다. 생존자를 추천합니다.")
+    print(f"당신의 {rec_first}로 감시자를 하기에는 무리입니다. 생존자를 추천합니다.")
 elif rec_second == "멘탈":
-    print("당신은 감시자를 하기에는 무리입니다. 생존자를 추천합니다.")
+    print(f"당신의 {rec_second}로 감시자를 하기에는 무리입니다. 생존자를 추천합니다.")
 elif rec_first == rec_second:
     recommend = rec_first
     print(f"당신에게는 {game_name}의 {recommend}를 추천합니다.")
