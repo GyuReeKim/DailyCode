@@ -1,0 +1,45 @@
+div {
+    background-color: plum;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.half {
+    width: 50%;
+}
+
+.b {
+    display: block;
+}
+
+.i {
+    display: inline;
+    background-color: pink;
+    margin-top: 100px;
+}
+
+.bi {
+    display: inline-block;
+    margin-top: 20px
+}
+
+.none {
+    display: none;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.bg {
+    background-image: url(https://i.pinimg.com/236x/ae/c9/ea/aec9eadd89aa51a9b753b221f3bcce12.jpg);
+}
+
+.text {
+    font-family: 'Merriweather', serif;
+    font-size: 5rem;
+}

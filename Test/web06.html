@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="web06.css">
+</head>
+<body>
+  <h1 class="class-selector">!important는 최우선순위다. class보다 우선순위다.</h1>
+  <h1 id="id-selector">!important는 최우선순위다. id보다 우선순위다.</h1>
+  <h2>Css에서 두 태그를 한번에 같은 값으로 지정해줄 수 있다.</h2>
+  <h2 class="class-selector">class</h2>
+  <h2 id="id-selector">id</h2>
+  <h2 class="class-selector" id="id-selector">id는 class보다 우선순위다.</h2>
+  <ul>ul태그다.
+    <p><b>ul > p</b>, p태그다. div태그의 자식인 p태그만 변경해준다.
+      <li><b>p + li</b>, li태그다. 자식태그와 p태그와 바로 인접한 형제태그를 변경해준다.</li>
+    </p>
+    <li>li태그다. 색상이 변한다.</li>
+    <li>li태그다. 색상이 변하지 않는다.</li>
+  </ul>
+  <h4>h4태그다.</h4>
+  <ol><b>h4 ~ ol</b>, ol태그다. h4태그 아래 인접한 ol태그 안의 모든 태그를 변경해준다.
+    <li>li태그다. 색상이 변한다.</li>
+    <p>p태그다. 색상이 변한다.</p>
+    <li><b>p + li</b>, li태그다. p태그 바로 아래에 있어 p + li가 적용된다.</li>
+  </ol>
+</body>
+</html>

@@ -1,0 +1,29 @@
+h1 {
+    color: purple !important;
+    background-color: wheat;
+}
+
+h1, h2 {
+    background-color: pink;
+}
+
+.class-selector {
+    color: tomato;
+}
+
+#id-selector {
+    color: green;
+    background-color: skyblue;
+}
+
+ul > p {
+    color: orange;
+}
+
+p + li {
+    color: mediumaquamarine;
+}
+
+h4 ~ ol {
+    color: salmon;
+}

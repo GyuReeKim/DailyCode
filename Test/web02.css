@@ -1,0 +1,39 @@
+h2 {
+    color: green;
+    font-size: 25px;
+}
+
+#px {
+    font-size: 50px;
+}
+
+#percent {
+    font-size: 50%;
+}
+
+#em {
+    font-size: 0.5em;
+}
+
+#rem {
+    font-size: 0.5rem;
+}
+
+#vw {
+    font-size: 5vw;
+}
+
+div {
+    width: 50%;
+    background-color: pink;
+}
+
+h3 {
+    width: 50%;
+    background-color: orange;
+}
+
+#id {
+    color: purple;
+    font-size: 75px;
+}

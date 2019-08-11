@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    h1 {
+      color: red;
+      font-size: 50px;
+    }
+  </style>
+  <link rel="stylesheet" href="web02.css">
+</head>
+<body>
+  <h1 style="color: blue; font-size: 100px">Inline(인라인)</h1>
+  <h1>Embedding(내부참조)</h1>
+  <h2>Link File(외부참조)</h2>
+  <p>Lorem5 + tab >>> Lorem ipsum dolor sit amet.</p>
+  <hr>
+  <p id="px">px, margin top과 bottom은 id의 font-size와 같다.</p>
+  <h1><p id="px">h1>px, id값 영향을 받는다. margin top과 bottom은 id의 font-size와 같다.</p></h1>
+  <h2><p id="px">h2>px, id값 영향을 받는다. margin top과 bottom은 id의 font-size와 같다.</p></h2>
+  <hr>
+  <p id="percent">%</p>
+  <h1><p id="percent">h1>%, h1 영향을 받는다. margin은 h1 영향을 받는다.</p></h1>
+  <h2><p id="percent">h2>%, h2 영향을 받는다. margin은 h2 영향을 받는다.</p></h2>
+  <hr>
+  <p id="em">em</p>
+  <h1><p id="em">h1>em, h1 영향을 받는다. margin은 h1 영향을 받는다.</p></h1>
+  <h2><p id="em">h2>em, h2 영향을 받는다. margin은 h2 영향을 받는다.</p></h2>
+  <hr>
+  <p id="rem">rem</p>
+  <h1><p id="rem">h1>rem, html의 영향을 받는다. margin은 h1 영향을 받는다.</p></h1>
+  <h2><p id="rem">h2>rem, html의 영향을 받는다. margin은 h2 영향을 받는다.</p></h2>
+  <hr>
+  <p id="vw">vw, 화면의 크기에 영향을 받는다. margin top과 bottom은 vw의 font-size와 같다.</p>
+  <h1><p id="vw">h1>vw, 화면의 크기에 영향을 받는다. margin top과 bottom은 vw의 font-size와 같다.</p></h1>
+  <h2><p id="vw">h2>vw, 화면의 크기에 영향을 받는다. margin top과 bottom은 vw의 font-size와 같다.</p></h2>
+  <hr>
+  <div>width: 50%, 화면 크기 50%의 공간을 차지한다.
+    <h3>width: 25%, div를 상속받아 화면크기 50%의 50%인 25%의 공간을 차지한다.</h3>
+  </div>
+  <h2 id="id" style="font-size: 50px">h2태그보다 id가 더 우선이다. Css보다 Inline이 더 우선이다.</h2>
+</body>
+</html>
