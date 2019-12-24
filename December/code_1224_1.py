@@ -29,14 +29,14 @@ adj = [[0]*(N+1) for _ in range(N+1)]
 for i in range(1, N+1):
     for j in range(1, N+1):
         if j + T[j] <= N+1:
-            adj[i][i] = 2
             if j >= i + T[i]:
                 adj[i][j] = 1
 # print(adj)
 
 maxV = 0
 for i in range(1, N+1):
-    if adj[i][i] == 2:
+    if i + T[i] <= N+1:
+        # print(i)
         add = P[i]
         visited = [0]*(N+1)
         f(i, add)
